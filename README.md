@@ -91,42 +91,8 @@ This takes a bit more work and problems can occur. Therefore, we
 recommend to use the Sciserver environment if you do not have a lot of
 experience with installing software.
 
-::: {.warning}
-::: {.title}
-Warning
-:::
-
-There will NOT be a lot of time to help people with installation
-problems at the school. Make sure that you have at least the Sciserver
-option running (see above). If you want to run the software on your own
-laptop, then make sure that you do the installation and solve the
-problems in the week before the school starts!
-:::
-
-During the school, we will use the following software packages:
-
--   HEASOFT (version \>=6.31), with Hitomi and Xspec packages.
--   SPEX (version 3.07.03).
-
-### Install HEASOFT
-
-For the school, you need a recent version of HEASOFT (preferably
-\>=6.31) with at least the Hitomi software and Xspec installed. See the
-[HEASOFT download
-page](https://heasarc.gsfc.nasa.gov/docs/software/lheasoft/download.html)
-for download and install instructions for your machine. Make sure that
-you check at least the boxes for Hitomi and Xspec when you install
-(downloading more packages is recommended).
-
-### Install the HITOMI CALDB
-
-In addition, you would need to download the [HITOMI SXS calibration
-files](https://heasarc.gsfc.nasa.gov/FTP/caldb/data/hitomi/sxs/goodfiles_hitomi_sxs_20180212.tar.gz)
-and make sure that your CALDB and CALDB_CONFIG environment variables
-point to the path where you installed the CALDB files. See the [CALDB
-install
-page](https://heasarc.gsfc.nasa.gov/docs/heasarc/caldb/caldb_install.html)
-for more information.
+For these exercises, we use the following software packages:
+-   [SPEX (version 3.07.03)](https://spex-xray.github.io/spex-help/index.html)
 
 ### Install SPEX through Anaconda
 
